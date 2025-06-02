@@ -1,11 +1,6 @@
 name: Stable OS 8
 
-on:
-  push:
-    tags:
-      - "*"
-  schedule:
-    - cron: "0 0 1 * *"   
+on:  
   workflow_dispatch: {}
 
 jobs:
